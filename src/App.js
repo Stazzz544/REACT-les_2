@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header/Header';
 import Main from './Main/Main';
@@ -18,10 +17,10 @@ const site = {
 function App() {
   return (
     <>
-		<Header data = {site}/>
+		<Header site = {site}/>
 		<Main/>
 		<Sidebar/>
-		<Footer data = {site}/>
+		<Footer site = {site}/>
 	 </>
   );
 }
